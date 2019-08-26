@@ -1,0 +1,522 @@
+INFO:gensim.utils:loading Word2Vec object from ../db/keyword_embedding_corpus
+DEBUG:smart_open.smart_open_lib:{'errors': None, 'encoding': None, 'newline': None, 'uri': '../db/keyword_embedding_corpus', 'opener': None, 'ignore_ext': False, 'closefd': True, 'buffering': -1, 'transport_params': None, 'mode': 'rb'}
+INFO:gensim.utils:loading vocabulary recursively from ../db/keyword_embedding_corpus.vocabulary.* with mmap=None
+INFO:gensim.utils:loading wv recursively from ../db/keyword_embedding_corpus.wv.* with mmap=None
+INFO:gensim.utils:setting ignored attribute vectors_norm to None
+INFO:gensim.utils:loading trainables recursively from ../db/keyword_embedding_corpus.trainables.* with mmap=None
+INFO:gensim.utils:setting ignored attribute cum_table to None
+INFO:gensim.utils:loaded ../db/keyword_embedding_corpus
+INFO:root:Holden: Read all from sqlite
+INFO:root:Holden: Read all from sqlite
+INFO:gensim.utils:loading Word2Vec object from ../db/keyword_embedding_corpus
+DEBUG:smart_open.smart_open_lib:{'errors': None, 'encoding': None, 'newline': None, 'uri': '../db/keyword_embedding_corpus', 'opener': None, 'ignore_ext': False, 'closefd': True, 'buffering': -1, 'transport_params': None, 'mode': 'rb'}
+INFO:gensim.utils:loading vocabulary recursively from ../db/keyword_embedding_corpus.vocabulary.* with mmap=None
+INFO:gensim.utils:loading wv recursively from ../db/keyword_embedding_corpus.wv.* with mmap=None
+INFO:gensim.utils:setting ignored attribute vectors_norm to None
+INFO:gensim.utils:loading trainables recursively from ../db/keyword_embedding_corpus.trainables.* with mmap=None
+INFO:gensim.utils:setting ignored attribute cum_table to None
+INFO:gensim.utils:loaded ../db/keyword_embedding_corpus
+WARNING:root:Holden: Finish draw plt
+INFO:root:Holden: Finish drawing class relationship
+INFO:root:Holden: Read all from sqlite
+INFO:root:Holden: Read all from sqlite
+INFO:root:Holden: Sample class
+INFO:root:moduleid: 133
+INFO:root:moduleid: 2552
+INFO:root:moduleid: 2401
+INFO:root:moduleid: 2050
+INFO:root:moduleid: 2566
+INFO:root:moduleid: 2846
+INFO:root:moduleid: 1981
+INFO:root:moduleid: 2969
+INFO:root:moduleid: 2425
+INFO:root:moduleid: 1138
+INFO:root:moduleid: 1649
+INFO:root:moduleid: 1495
+INFO:root:moduleid: 64
+INFO:root:moduleid: 856
+INFO:root:moduleid: 2394
+INFO:root:moduleid: 539
+INFO:root:moduleid: 2809
+INFO:root:moduleid: 1478
+INFO:root:moduleid: 595
+INFO:root:moduleid: 1549
+INFO:root:moduleid: 842
+INFO:root:moduleid: 2509
+INFO:root:moduleid: 1246
+INFO:root:moduleid: 257
+INFO:root:moduleid: 80
+INFO:root:moduleid: 1692
+INFO:root:moduleid: 932
+INFO:root:moduleid: 508
+INFO:root:moduleid: 2192
+INFO:root:moduleid: 1273
+INFO:root:moduleid: 890
+INFO:root:moduleid: 2052
+INFO:root:moduleid: 2185
+INFO:root:moduleid: 2325
+INFO:root:moduleid: 2849
+INFO:root:moduleid: 1189
+INFO:root:moduleid: 547
+INFO:root:moduleid: 1871
+INFO:root:moduleid: 185
+INFO:root:moduleid: 317
+INFO:root:moduleid: 1497
+INFO:root:moduleid: 1336
+INFO:root:moduleid: 2744
+INFO:root:moduleid: 870
+INFO:root:moduleid: 1554
+INFO:root:moduleid: 2982
+INFO:root:moduleid: 376
+INFO:root:moduleid: 2664
+INFO:root:moduleid: 2108
+INFO:root:moduleid: 1321
+INFO:root:moduleid: 76
+INFO:root:moduleid: 2173
+INFO:root:moduleid: 93
+INFO:root:moduleid: 2479
+INFO:root:moduleid: 1571
+INFO:root:moduleid: 1487
+INFO:root:moduleid: 1731
+INFO:root:moduleid: 1047
+INFO:root:moduleid: 1844
+INFO:root:moduleid: 1063
+INFO:root:moduleid: 2748
+INFO:root:moduleid: 84
+INFO:root:moduleid: 929
+INFO:root:moduleid: 774
+INFO:root:moduleid: 1131
+INFO:root:moduleid: 1839
+INFO:root:moduleid: 1416
+INFO:root:moduleid: 738
+INFO:root:moduleid: 2065
+INFO:root:moduleid: 439
+INFO:root:moduleid: 2633
+INFO:root:moduleid: 200
+INFO:root:moduleid: 1789
+INFO:root:moduleid: 1459
+INFO:root:moduleid: 1025
+INFO:root:moduleid: 2141
+INFO:root:moduleid: 709
+INFO:root:moduleid: 1540
+INFO:root:moduleid: 1819
+INFO:root:moduleid: 1105
+INFO:root:moduleid: 2948
+INFO:root:moduleid: 27
+INFO:root:moduleid: 1668
+INFO:root:moduleid: 1967
+INFO:root:moduleid: 2871
+INFO:root:moduleid: 178
+INFO:root:moduleid: 2301
+INFO:root:moduleid: 862
+INFO:root:moduleid: 2670
+INFO:root:moduleid: 980
+INFO:root:moduleid: 2288
+INFO:root:moduleid: 650
+INFO:root:moduleid: 2099
+INFO:root:moduleid: 1857
+INFO:root:moduleid: 1228
+INFO:root:moduleid: 1004
+INFO:root:moduleid: 1429
+INFO:root:moduleid: 1575
+INFO:root:moduleid: 1278
+INFO:root:moduleid: 1234
+INFO:gensim.utils:loading Word2Vec object from ../db/keyword_embedding_corpus
+DEBUG:smart_open.smart_open_lib:{'errors': None, 'encoding': None, 'newline': None, 'uri': '../db/keyword_embedding_corpus', 'opener': None, 'ignore_ext': False, 'closefd': True, 'buffering': -1, 'transport_params': None, 'mode': 'rb'}
+INFO:gensim.utils:loading vocabulary recursively from ../db/keyword_embedding_corpus.vocabulary.* with mmap=None
+INFO:gensim.utils:loading wv recursively from ../db/keyword_embedding_corpus.wv.* with mmap=None
+INFO:gensim.utils:setting ignored attribute vectors_norm to None
+INFO:gensim.utils:loading trainables recursively from ../db/keyword_embedding_corpus.trainables.* with mmap=None
+INFO:gensim.utils:setting ignored attribute cum_table to None
+INFO:gensim.utils:loaded ../db/keyword_embedding_corpus
+WARNING:root:Holden: Finish draw plt
+INFO:root:Holden: Finish drawing class relationship
+INFO:root:Holden: Read all from sqlite
+INFO:root:Holden: Read all from sqlite
+INFO:root:Holden: Sample class
+INFO:root:moduleid: 1245
+INFO:root:moduleid: 2307
+INFO:root:moduleid: 1122
+INFO:root:moduleid: 458
+INFO:root:moduleid: 2136
+INFO:root:moduleid: 2153
+INFO:root:moduleid: 1772
+INFO:root:moduleid: 2913
+INFO:root:moduleid: 1338
+INFO:root:moduleid: 965
+INFO:root:moduleid: 209
+INFO:root:moduleid: 2080
+INFO:root:moduleid: 2154
+INFO:root:moduleid: 571
+INFO:root:moduleid: 1448
+INFO:root:moduleid: 1718
+INFO:root:moduleid: 2743
+INFO:root:moduleid: 624
+INFO:root:moduleid: 1239
+INFO:root:moduleid: 710
+INFO:root:moduleid: 814
+INFO:root:moduleid: 270
+INFO:root:moduleid: 851
+INFO:root:moduleid: 1305
+INFO:root:moduleid: 2640
+INFO:root:moduleid: 1310
+INFO:root:moduleid: 1988
+INFO:root:moduleid: 1855
+INFO:root:moduleid: 653
+INFO:root:moduleid: 36
+INFO:root:moduleid: 259
+INFO:root:moduleid: 2162
+INFO:root:moduleid: 119
+INFO:root:moduleid: 1854
+INFO:root:moduleid: 1613
+INFO:root:moduleid: 1283
+INFO:root:moduleid: 2455
+INFO:root:moduleid: 2173
+INFO:root:moduleid: 2084
+INFO:root:moduleid: 2671
+INFO:root:moduleid: 1615
+INFO:root:moduleid: 548
+INFO:root:moduleid: 803
+INFO:root:moduleid: 2056
+INFO:root:moduleid: 1075
+INFO:root:moduleid: 2009
+INFO:root:moduleid: 2602
+INFO:root:moduleid: 14
+INFO:root:moduleid: 1135
+INFO:root:moduleid: 2644
+INFO:root:moduleid: 2006
+INFO:root:moduleid: 77
+INFO:root:moduleid: 2609
+INFO:root:moduleid: 1056
+INFO:root:moduleid: 850
+INFO:root:moduleid: 1585
+INFO:root:moduleid: 1968
+INFO:root:moduleid: 88
+INFO:root:moduleid: 2257
+INFO:root:moduleid: 1080
+INFO:root:moduleid: 2909
+INFO:root:moduleid: 2906
+INFO:root:moduleid: 2809
+INFO:root:moduleid: 3077
+INFO:root:moduleid: 2563
+INFO:root:moduleid: 443
+INFO:root:moduleid: 1522
+INFO:root:moduleid: 2776
+INFO:root:moduleid: 1785
+INFO:root:moduleid: 1813
+INFO:root:moduleid: 2580
+INFO:root:moduleid: 1698
+INFO:root:moduleid: 537
+INFO:root:moduleid: 2381
+INFO:root:moduleid: 2631
+INFO:root:moduleid: 602
+INFO:root:moduleid: 1391
+INFO:root:moduleid: 1900
+INFO:root:moduleid: 285
+INFO:root:moduleid: 1267
+INFO:root:moduleid: 1483
+INFO:root:moduleid: 2086
+INFO:root:moduleid: 2498
+INFO:root:moduleid: 163
+INFO:root:moduleid: 2066
+INFO:root:moduleid: 1587
+INFO:root:moduleid: 2051
+INFO:root:moduleid: 2874
+INFO:root:moduleid: 1914
+INFO:root:moduleid: 352
+INFO:root:moduleid: 2321
+INFO:root:moduleid: 325
+INFO:root:moduleid: 466
+INFO:root:moduleid: 2142
+INFO:root:moduleid: 1280
+INFO:root:moduleid: 1131
+INFO:root:moduleid: 2933
+INFO:root:moduleid: 1092
+INFO:root:moduleid: 2632
+INFO:root:moduleid: 2984
+INFO:gensim.utils:loading Word2Vec object from ../db/keyword_embedding_corpus
+DEBUG:smart_open.smart_open_lib:{'errors': None, 'encoding': None, 'newline': None, 'uri': '../db/keyword_embedding_corpus', 'opener': None, 'ignore_ext': False, 'closefd': True, 'buffering': -1, 'transport_params': None, 'mode': 'rb'}
+INFO:gensim.utils:loading vocabulary recursively from ../db/keyword_embedding_corpus.vocabulary.* with mmap=None
+INFO:gensim.utils:loading wv recursively from ../db/keyword_embedding_corpus.wv.* with mmap=None
+INFO:gensim.utils:setting ignored attribute vectors_norm to None
+INFO:gensim.utils:loading trainables recursively from ../db/keyword_embedding_corpus.trainables.* with mmap=None
+INFO:gensim.utils:setting ignored attribute cum_table to None
+INFO:gensim.utils:loaded ../db/keyword_embedding_corpus
+WARNING:root:Holden: Finish draw plt
+INFO:root:Holden: Finish drawing class relationship
+INFO:root:Holden: Read all from sqlite
+INFO:root:Holden: Read all from sqlite
+INFO:root:Holden: Sample class
+INFO:root:moduleid: 2429
+INFO:root:moduleid: 2337
+INFO:root:moduleid: 507
+INFO:root:moduleid: 1187
+INFO:root:moduleid: 2527
+INFO:root:moduleid: 2278
+INFO:root:moduleid: 2540
+INFO:root:moduleid: 735
+INFO:root:moduleid: 1504
+INFO:root:moduleid: 428
+INFO:root:moduleid: 2003
+INFO:root:moduleid: 1068
+INFO:root:moduleid: 1681
+INFO:root:moduleid: 1883
+INFO:root:moduleid: 1695
+INFO:root:moduleid: 801
+INFO:root:moduleid: 394
+INFO:root:moduleid: 2779
+INFO:root:moduleid: 86
+INFO:root:moduleid: 305
+INFO:root:moduleid: 2483
+INFO:root:moduleid: 1235
+INFO:root:moduleid: 2669
+INFO:root:moduleid: 360
+INFO:root:moduleid: 2908
+INFO:root:moduleid: 921
+INFO:root:moduleid: 1587
+INFO:root:moduleid: 2324
+INFO:root:moduleid: 1027
+INFO:root:moduleid: 2032
+INFO:root:moduleid: 361
+INFO:root:moduleid: 2869
+INFO:root:moduleid: 267
+INFO:root:moduleid: 337
+INFO:root:moduleid: 2392
+INFO:root:moduleid: 485
+INFO:root:moduleid: 1878
+INFO:root:moduleid: 2923
+INFO:root:moduleid: 946
+INFO:root:moduleid: 1699
+INFO:root:moduleid: 1850
+INFO:root:moduleid: 1317
+INFO:root:moduleid: 1134
+INFO:root:moduleid: 1964
+INFO:root:moduleid: 2135
+INFO:root:moduleid: 2535
+INFO:root:moduleid: 3058
+INFO:root:moduleid: 2484
+INFO:root:moduleid: 1756
+INFO:root:moduleid: 662
+INFO:root:moduleid: 2528
+INFO:root:moduleid: 860
+INFO:root:moduleid: 2163
+INFO:root:moduleid: 1139
+INFO:root:moduleid: 1383
+INFO:root:moduleid: 2819
+INFO:root:moduleid: 530
+INFO:root:moduleid: 2678
+INFO:root:moduleid: 307
+INFO:root:moduleid: 1590
+INFO:root:moduleid: 196
+INFO:root:moduleid: 938
+INFO:root:moduleid: 2496
+INFO:root:moduleid: 426
+INFO:root:moduleid: 749
+INFO:root:moduleid: 2262
+INFO:root:moduleid: 1247
+INFO:root:moduleid: 2229
+INFO:root:moduleid: 2513
+INFO:root:moduleid: 2697
+INFO:root:moduleid: 656
+INFO:root:moduleid: 108
+INFO:root:moduleid: 27
+INFO:root:moduleid: 1391
+INFO:root:moduleid: 2990
+INFO:root:moduleid: 2667
+INFO:root:moduleid: 1547
+INFO:root:moduleid: 2546
+INFO:root:moduleid: 1091
+INFO:root:moduleid: 162
+INFO:root:moduleid: 2973
+INFO:root:moduleid: 2915
+INFO:root:moduleid: 1488
+INFO:root:moduleid: 2938
+INFO:root:moduleid: 526
+INFO:root:moduleid: 2885
+INFO:root:moduleid: 1427
+INFO:root:moduleid: 1272
+INFO:root:moduleid: 85
+INFO:root:moduleid: 2400
+INFO:root:moduleid: 373
+INFO:root:moduleid: 246
+INFO:root:moduleid: 2118
+INFO:root:moduleid: 876
+INFO:root:moduleid: 1070
+INFO:root:moduleid: 2536
+INFO:root:moduleid: 1293
+INFO:root:moduleid: 2219
+INFO:root:moduleid: 1204
+INFO:root:moduleid: 2021
+INFO:gensim.utils:loading Word2Vec object from ../db/keyword_embedding_corpus
+DEBUG:smart_open.smart_open_lib:{'errors': None, 'encoding': None, 'newline': None, 'uri': '../db/keyword_embedding_corpus', 'opener': None, 'ignore_ext': False, 'closefd': True, 'buffering': -1, 'transport_params': None, 'mode': 'rb'}
+INFO:gensim.utils:loading vocabulary recursively from ../db/keyword_embedding_corpus.vocabulary.* with mmap=None
+INFO:gensim.utils:loading wv recursively from ../db/keyword_embedding_corpus.wv.* with mmap=None
+INFO:gensim.utils:setting ignored attribute vectors_norm to None
+INFO:gensim.utils:loading trainables recursively from ../db/keyword_embedding_corpus.trainables.* with mmap=None
+INFO:gensim.utils:setting ignored attribute cum_table to None
+INFO:gensim.utils:loaded ../db/keyword_embedding_corpus
+WARNING:root:Holden: Finish draw plt
+INFO:root:Holden: Finish drawing class relationship
+INFO:root:Holden: Read all from sqlite
+INFO:root:Holden: Read all from sqlite
+INFO:root:Holden: Sample class
+INFO:root:moduleid: 2249
+INFO:root:moduleid: 528
+INFO:root:moduleid: 202
+INFO:root:moduleid: 2392
+INFO:root:moduleid: 3012
+INFO:root:moduleid: 1809
+INFO:root:moduleid: 1259
+INFO:root:moduleid: 1316
+INFO:root:moduleid: 1649
+INFO:root:moduleid: 509
+INFO:root:moduleid: 2015
+INFO:root:moduleid: 569
+INFO:root:moduleid: 2651
+INFO:root:moduleid: 1436
+INFO:root:moduleid: 1636
+INFO:root:moduleid: 2777
+INFO:root:moduleid: 543
+INFO:root:moduleid: 1836
+INFO:root:moduleid: 2154
+INFO:root:moduleid: 2235
+INFO:root:moduleid: 141
+INFO:root:moduleid: 1644
+INFO:root:moduleid: 1686
+INFO:root:moduleid: 1461
+INFO:root:moduleid: 846
+INFO:root:moduleid: 208
+INFO:root:moduleid: 2539
+INFO:root:moduleid: 308
+INFO:root:moduleid: 1440
+INFO:root:moduleid: 238
+INFO:root:moduleid: 1410
+INFO:root:moduleid: 1797
+INFO:root:moduleid: 1049
+INFO:root:moduleid: 2399
+INFO:root:moduleid: 905
+INFO:root:moduleid: 538
+INFO:root:moduleid: 2665
+INFO:root:moduleid: 2523
+INFO:root:moduleid: 1126
+INFO:root:moduleid: 2740
+INFO:root:moduleid: 727
+INFO:root:moduleid: 974
+INFO:root:moduleid: 2698
+INFO:root:moduleid: 2986
+INFO:root:moduleid: 2058
+INFO:root:moduleid: 1657
+INFO:root:moduleid: 2353
+INFO:root:moduleid: 1825
+INFO:root:moduleid: 2345
+INFO:root:moduleid: 1011
+INFO:root:moduleid: 2959
+INFO:root:moduleid: 471
+INFO:root:moduleid: 1282
+INFO:root:moduleid: 1257
+INFO:root:moduleid: 776
+INFO:root:moduleid: 2588
+INFO:root:moduleid: 2599
+INFO:root:moduleid: 1879
+INFO:root:moduleid: 728
+INFO:root:moduleid: 2011
+INFO:root:moduleid: 1320
+INFO:root:moduleid: 1682
+INFO:root:moduleid: 2028
+INFO:root:moduleid: 629
+INFO:root:moduleid: 1038
+INFO:root:moduleid: 1514
+INFO:root:moduleid: 203
+INFO:root:moduleid: 1779
+INFO:root:moduleid: 978
+INFO:root:moduleid: 941
+INFO:root:moduleid: 250
+INFO:root:moduleid: 1158
+INFO:root:moduleid: 556
+INFO:root:moduleid: 362
+INFO:root:moduleid: 2277
+INFO:root:moduleid: 2594
+INFO:root:moduleid: 3041
+INFO:root:moduleid: 1186
+INFO:root:moduleid: 184
+INFO:root:moduleid: 165
+INFO:root:moduleid: 2032
+INFO:root:moduleid: 1653
+INFO:root:moduleid: 1043
+INFO:root:moduleid: 1695
+INFO:root:moduleid: 1930
+INFO:root:moduleid: 1768
+INFO:root:moduleid: 694
+INFO:root:moduleid: 2555
+INFO:root:moduleid: 464
+INFO:root:moduleid: 2552
+INFO:root:moduleid: 2137
+INFO:root:moduleid: 111
+INFO:root:moduleid: 2432
+INFO:root:moduleid: 2773
+INFO:root:moduleid: 1382
+INFO:root:moduleid: 595
+INFO:root:moduleid: 2998
+INFO:root:moduleid: 2426
+INFO:root:moduleid: 1088
+INFO:root:moduleid: 3053
+INFO:root:moduleid: 2984
+INFO:root:moduleid: 809
+INFO:root:moduleid: 2980
+INFO:root:moduleid: 2332
+INFO:root:moduleid: 2927
+INFO:root:moduleid: 118
+INFO:root:moduleid: 2659
+INFO:root:moduleid: 1021
+INFO:root:moduleid: 2350
+INFO:root:moduleid: 972
+INFO:root:moduleid: 2402
+INFO:root:moduleid: 2052
+INFO:root:moduleid: 925
+INFO:root:moduleid: 2807
+INFO:root:moduleid: 2512
+INFO:root:moduleid: 1752
+INFO:root:moduleid: 879
+INFO:root:moduleid: 2222
+INFO:root:moduleid: 2965
+INFO:root:moduleid: 2693
+INFO:root:moduleid: 1071
+INFO:root:moduleid: 377
+INFO:root:moduleid: 2437
+INFO:root:moduleid: 15
+INFO:root:moduleid: 336
+INFO:root:moduleid: 2896
+INFO:root:moduleid: 435
+INFO:root:moduleid: 2981
+INFO:root:moduleid: 1484
+INFO:root:moduleid: 1163
+INFO:root:moduleid: 804
+INFO:root:moduleid: 1510
+INFO:root:moduleid: 2870
+INFO:root:moduleid: 1595
+INFO:root:moduleid: 1444
+INFO:root:moduleid: 454
+INFO:root:moduleid: 2205
+INFO:root:moduleid: 2144
+INFO:root:moduleid: 1211
+INFO:root:moduleid: 679
+INFO:root:moduleid: 3008
+INFO:root:moduleid: 1360
+INFO:root:moduleid: 1971
+INFO:root:moduleid: 1651
+INFO:root:moduleid: 670
+INFO:root:moduleid: 1598
+INFO:root:moduleid: 109
+INFO:root:moduleid: 537
+INFO:root:moduleid: 977
+INFO:root:moduleid: 398
+INFO:gensim.utils:loading Word2Vec object from ../db/keyword_embedding_corpus
+DEBUG:smart_open.smart_open_lib:{'errors': None, 'encoding': None, 'newline': None, 'uri': '../db/keyword_embedding_corpus', 'opener': None, 'ignore_ext': False, 'closefd': True, 'buffering': -1, 'transport_params': None, 'mode': 'rb'}
+INFO:gensim.utils:loading vocabulary recursively from ../db/keyword_embedding_corpus.vocabulary.* with mmap=None
+INFO:gensim.utils:loading wv recursively from ../db/keyword_embedding_corpus.wv.* with mmap=None
+INFO:gensim.utils:setting ignored attribute vectors_norm to None
+INFO:gensim.utils:loading trainables recursively from ../db/keyword_embedding_corpus.trainables.* with mmap=None
+INFO:gensim.utils:setting ignored attribute cum_table to None
+INFO:gensim.utils:loaded ../db/keyword_embedding_corpus
+WARNING:root:Holden: Finish draw plt
+INFO:root:Holden: Finish drawing class relationship
