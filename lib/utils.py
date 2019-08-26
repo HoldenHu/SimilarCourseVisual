@@ -6,8 +6,12 @@ Package method function
 
 import urllib2
 import requests
+import numpy as np
 
 class NetworkUtils:
+    '''
+    Pakage class used for netword request
+    '''
     # The unchanged first half and the second half of the url
     CONSTANT_URL = ["https://nusmods.com/modules?p=", "&sem[0]=1&sem[1]=2&sem[2]=3&sem[3]=4"]
 
@@ -25,3 +29,14 @@ class NetworkUtils:
         print("open" + url)
         return response.read().decode('utf-8')
 
+class DataUtiles:
+    '''
+    Used for some data caculating process
+    '''
+    def __init__(self):
+        pass
+
+    def random_sample(self, num, _in_num):
+        random_arr = np.arange(len(_in_num))
+        np.random.shuffle(random_arr)
+        return random_arr[0:num]

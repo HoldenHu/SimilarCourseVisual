@@ -2,6 +2,7 @@
 
 from lib.global_variable import *
 import sqlite3
+import logging
 
 
 class ModsDB:
@@ -15,44 +16,48 @@ class ModsDB:
         self.conn.close()
         pass
 
-    ########################################################################################
-    #  Function: Store module code & module description to ./db/
-    #  Input: int, str, str
-    #  Output: Update DB
-    ########################################################################################
     def store_to_sqlite(self, id, code, details):
+        '''
+        Store module code & module description to ./db/
+        :param id: 1
+        :param code: "CS5242"
+        :param details: ""word
+        :return: Update DB
+        '''
         self.conn = sqlite3.connect(CONSTANT_DB_PATH)
 
         try:
             self.conn.execute(
                 "INSERT INTO Modsinfo (ModsID,ModsCode,ModsDetails) VALUES (?,?,?)",
                 (id, code, details))
-        except:
-            print "insert ERROR"
+        except Exception,e:
+            logging.error('Holden: ERROR:' + str(e))
 
+        logging.info('Holden: Store module - ' + code)
         self.conn.commit()
         return
 
-    ########################################################################################
-    #  Function: Read all data from sqlite3
-    #  Input: None
-    #  Output: return [(id, code, description),]
-    ########################################################################################
     def read_all_from_sqlite(self):
+        '''
+        Read all data from sqlite3
+        :return: return [(id, code, description),]
+        '''
         self.conn.row_factory = sqlite3.Row  # Access to column information
         self.cursor.execute("select * from Modsinfo")  # This routine executes an SQL statement
 
         # This routine gets all (remaining) rows in the query result set and returns a list.
         # When there are no rows available, an empty list is returned.
         rows = self.cursor.fetchall()
+
+        logging.info('Holden: Read all from sqlite')
         return rows
 
-    ########################################################################################
-    #  Function: Get the descriptions of a module by using ModsCode such as CS5242
-    #  Input: str
-    #  Output: return "module description"
-    ########################################################################################
     def read_details_bycode(self, code):
+        '''
+        Get the descriptions of a module by using ModsCode such as CS5242
+        :param code: "CS5242"
+        :return: "module description"
+        '''
         self.conn.row_factory = sqlite3.Row  # Access to column information
 
         # This routine executes an SQL statement
@@ -63,12 +68,12 @@ class ModsDB:
         rows = self.cursor.fetchall()
         return rows[0][0]
 
-    ########################################################################################
-    #  Function: Whether the interpretation of the course exists in the database, Convenient to update the database
-    #  Input: str
-    #  Output: return True or False
-    ########################################################################################
     def if_module_exist(self, code):
+        '''
+        Whether the interpretation of the course exists in the database, Convenient to update the database
+        :param code: "CS5242"
+        :return: return True or False
+        '''
         self.conn.row_factory = sqlite3.Row
         self.cursor.execute("select ModsID from Modsinfo WHERE Modscode =" + "\"" + code + "\"")
 
@@ -80,16 +85,13 @@ class ModsDB:
             # conn.close()
             return True
 
-    ########################################################################################
-    #  Function: Create a database if the database does not exist
-    #  Input: None
-    #  Output: Create DB
-    ########################################################################################
     # def create_database(self):
-        # '''创建游标'''
+        # '''
+        # Create a database if the database does not exist
+        # :return: Create DB
+        # '''
         # cursor = conn.cursor()
 
-        # '''执行语句'''
         # sql = '''create table Modsinfo (
         #         ModsID int,
         #         ModsCode text,

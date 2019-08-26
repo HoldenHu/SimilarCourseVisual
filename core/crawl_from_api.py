@@ -13,9 +13,17 @@ import urllib2
 import json
 from lib.global_variable import *
 from mods_db import ModsDB
+import logging
+
 
 # Get the request message
 def open_url(url):
+    '''
+    Get the pakage from given url. Camouflage man-made behavior
+    :param url: http://...
+    :return: response
+    '''
+    logging.info('Holden: Try to get the pakage from' + url)
     req = urllib2.Request(url)
     #  Camouflage man-made behavior
     req.add_header('User-Agent',
@@ -23,13 +31,21 @@ def open_url(url):
                    ' (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4132.400')
     response = urllib2.urlopen(req)
 
+    logging.info('Holden: Successully get the pakage from url')
     return response.read()
 
 
 def save_code_description(year_1, year_2, semester):
+    '''
+    Crawl course information online and save it in the database
+    :param year_1: 2018
+    :param year_2: 2019
+    :param semester: 1
+    :return:
+    '''
     counter = 1
     code_list = json.loads(open_url(CONSTANT_DOMAIN + str(year_1) + "-" + str(year_2) + "/" + str(semester) + "/moduleCodes.json"))
-    print code_list
+    logging.info('Holden: Get code list from mods api successfully' + str(code_list))
 
     #  Store data to the database
     db = ModsDB(CONSTANT_DB_PATH)
@@ -39,8 +55,12 @@ def save_code_description(year_1, year_2, semester):
         each_module_detail = json.loads(open_url(CONSTANT_DOMAIN + str(year_1) + "-" + str(year_2) + "/" + str(semester) + "/modules/" + each_code + ".json"))
         try:
             db.store_to_sqlite(counter, each_code, each_module_detail['ModuleDescription'])
+            logging.info('Holden: Save one data of: ' + str(each_code))
         except Exception, e:
             print e
         counter = counter + 1
-        print counter
+
+    logging.info('Holden: Store data to DB')
     del db
+    logging.info('Holden: Delete DB handler')
+    return
