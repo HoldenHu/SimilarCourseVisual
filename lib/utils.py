@@ -8,6 +8,7 @@ import urllib2
 import requests
 import numpy as np
 
+
 class NetworkUtils:
     '''
     Pakage class used for netword request
@@ -29,7 +30,8 @@ class NetworkUtils:
         print("open" + url)
         return response.read().decode('utf-8')
 
-class DataUtiles:
+
+class DataUtils:
     '''
     Used for some data caculating process
     '''

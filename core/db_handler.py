@@ -40,6 +40,7 @@ def random_keywords_list_from_db(mods_db):
     random_arr = np.arange(len(classcode_list))
     np.random.shuffle(random_arr)
     logging.info('Holden: Sample class')
+
     for i in random_arr[0:RANDOM_SAMPLING_NUM]:
         logging.info('moduleid: '+str(i))
         rand_classcode_list.append(classcode_list[i])

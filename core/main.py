@@ -2,6 +2,11 @@
 import os
 import numpy as np
 import matplotlib.pyplot as plt
+import sys
+import os
+curPath = os.path.abspath(os.path.dirname(__file__))
+rootPath = os.path.split(curPath)[0]
+sys.path.append(rootPath)
 
 from lib.global_variable import *
 from crawl_from_api import *
@@ -14,7 +19,6 @@ from word_frenquency import draw_word_count
 from mods_db import ModsDB
 import logging
 
-import os
 logging.basicConfig(filename=os.path.join(os.getcwd(),'log.txt'),level=logging.DEBUG)
 
 
@@ -99,7 +103,7 @@ def word2vec_by_class(list):
         for each_word in each_class:
             try:
                 eachclass_vec_list.append(model.wv.get_vector(each_word))
-            except Exception,e:
+            except Exception, e:
                 logging.error('Holden: ERROR: ' + str(e))
                 print e
         classvec_by_class_list.append(eachclass_vec_list)
@@ -160,6 +164,9 @@ if __name__=="__main__":
     # save_code_description(2018, 2019 ,1)  # Crawl course information online and save it in the database
     # update_database()
 
+    print(sys.argv)
+    print(sys.argv[0])
+    print(sys.argv[1:])
     mods_db = ModsDB(DB_LOCATION)  # Handler of Database
 
     #  keywords_list contain keywords in every module' descriptions, store one by one. All data
