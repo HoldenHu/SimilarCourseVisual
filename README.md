@@ -36,20 +36,25 @@ Mainly covers: Modsid: the Unique identifier in the database; ModsCode: Nus cour
 
 ## How to use
 ### Prepare data
-run data_prepare.py, which will call the function in the `core` to crawl information and store them into db.sqlite3.
+Run data_prepare.py, which will call the function in the `core` to crawl information and store them into db.sqlite3.
  
 ```bash
-python data_prepare.py
+python bin/data_prepare.py
+```  
+### Run
+- Then you can run start.py to excute the main function to drawl the top frequency words cloud into docs/cloudWord.html & show their similarity by tsne.
+
+```bash
+python bin/start.py drawWords
 ```  
 
-`python /bin/start.py`  
-Directly draw the word frequency in WordCloud, and save it in /doc
-Meanwhile plot the relationships of `RANDOM_SAMPLE_NUM` modules  
+- And you can also run start.py to excute the main function to drawl the similarity of modules by add another agrv.
 
-`draw_top_frequency(all_keywords_list)`  
-*Also call this function to draw the relationship between words and words*
-
-**Modify global variables directly in the lib**  
+```bash
+python bin/start.py drawWords
+```  
+### Others
+**Cna modify global variables directly in the lib**  
 `STOPWORD_LOCATION` = "../docs/Foxstoplist.txt"   
 `DB_LOCATION` = "../db/db.sqlite3"   
 `MODEL_LOCATION` = "../db/word\_embedding_corpus"   

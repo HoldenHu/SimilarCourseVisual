@@ -28,7 +28,7 @@ def draw_word_count(word_counter):
             nums.append(item[1])
         return wordslist,nums
 
-    outputFile = '../docs/cloudWord.html'
+    outputFile = COULD_HTML_PATH
 
     # Extract keywords
     wordslist,nums = counter2list(wordsCounter.most_common(1000))

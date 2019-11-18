@@ -134,6 +134,7 @@ def draw_top_frequency(keywords_list):
     '''
     corpus = build_corpus(keywords_list)  # A word counter including all keywords
     draw_word_count(corpus)
+    print("saved the words cloud")
 
     # Store the 100 words with the highest frequency and their Vec
     words_list, words_vectors = word_and_vec_list(corpus)
@@ -161,12 +162,7 @@ def draw_modules_relation(keywords_list,classcode_list):
 
 
 if __name__=="__main__":
-    # save_code_description(2018, 2019 ,1)  # Crawl course information online and save it in the database
-    # update_database()
 
-    print(sys.argv)
-    print(sys.argv[0])
-    print(sys.argv[1:])
     mods_db = ModsDB(DB_LOCATION)  # Handler of Database
 
     #  keywords_list contain keywords in every module' descriptions, store one by one. All data
@@ -179,8 +175,14 @@ if __name__=="__main__":
     else:
         model = build_model(all_keywords_list)  # Training data from scratch, embedding words
 
-    # draw_top_frequency(all_keywords_list)
+    # Save the word cloud to docs/cloudWord.html. And draw the similarity graph of top frequency words
+    if sys.argv[1] == "drawWords":
+        print("start to draw to frequency words")
+        draw_top_frequency(all_keywords_list)
 
-    draw_modules_relation(sample_keywords_list, sample_classcode_list)
+    # draw the similarity graph of sample modules
+    if sys.argv[1] == "drawModules":
+        draw_modules_relation(sample_keywords_list, sample_classcode_list)
+
 
 

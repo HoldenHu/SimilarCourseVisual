@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4adc51cd-3025-4059-aa33-a938ba33c257" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/db.sqlite3" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data_prepare.py" afterPath="$PROJECT_DIR$/bin/data_prepare.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/crawl_from_api.py" afterPath="$PROJECT_DIR$/core/crawl_from_api.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/mods_db.py" afterPath="$PROJECT_DIR$/core/mods_db.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/start.py" afterPath="$PROJECT_DIR$/bin/start.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/main.py" afterPath="$PROJECT_DIR$/core/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/word_frenquency.py" afterPath="$PROJECT_DIR$/core/word_frenquency.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/cloudWord.html" afterPath="$PROJECT_DIR$/docs/cloudWord.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/global_variable.py" afterPath="$PROJECT_DIR$/lib/global_variable.py" />
     </list>
     <ignored path="SimilarCourseVisual.iws" />
@@ -25,7 +24,7 @@
     <SUITE FILE_PATH="coverage/SimilarCourseVisual$crawl_from_api.coverage" NAME="crawl_from_api Coverage Results" MODIFIED="1566623398580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core" />
     <SUITE FILE_PATH="coverage/SimilarCourseVisual$store_to_db.coverage" NAME="store_to_db Coverage Results" MODIFIED="1566707768938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core" />
     <SUITE FILE_PATH="coverage/SimilarCourseVisual$start.coverage" NAME="start Coverage Results" MODIFIED="1566813372712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
-    <SUITE FILE_PATH="coverage/SimilarCourseVisual$main.coverage" NAME="main Coverage Results" MODIFIED="1574064834952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core" />
+    <SUITE FILE_PATH="coverage/SimilarCourseVisual$main.coverage" NAME="main Coverage Results" MODIFIED="1574077681705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core" />
     <SUITE FILE_PATH="coverage/SimilarCourseVisual$db_handler.coverage" NAME="db_handler Coverage Results" MODIFIED="1566713593374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core" />
     <SUITE FILE_PATH="coverage/SimilarCourseVisual$data_prepare.coverage" NAME="data_prepare Coverage Results" MODIFIED="1574070348403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
     <SUITE FILE_PATH="coverage/SimilarCourseVisual$modles_db.coverage" NAME="modles_db Coverage Results" MODIFIED="1566712601923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core" />
@@ -42,8 +41,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="167" column="22" selection-start-line="167" selection-start-column="22" selection-end-line="167" selection-end-column="22" />
+            <state relative-caret-position="2202">
+              <caret line="175" column="73" selection-start-line="175" selection-start-column="73" selection-end-line="175" selection-end-column="73" />
               <folding>
                 <element signature="e#18#27#0" expanded="true" />
               </folding>
@@ -51,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mods_db.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mods_db.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/mods_db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+            <state relative-caret-position="285">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
               <folding>
                 <element signature="e#19#52#0" expanded="true" />
                 <marker date="1574072071203" expanded="true" signature="875:940" ph="INSERT INTO Modsinfo... " />
@@ -92,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="start.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bin/start.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="210">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -107,22 +106,10 @@
       <file leaf-file-name="global_variable.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/global_variable.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="15" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="training_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/training_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="e#18#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -186,16 +173,16 @@
         <option value="$PROJECT_DIR$/core/__init__.py" />
         <option value="$PROJECT_DIR$/core/log.txt" />
         <option value="$PROJECT_DIR$/core/training_data.py" />
-        <option value="$PROJECT_DIR$/core/word_frenquency.py" />
         <option value="$PROJECT_DIR$/lib/utils.py" />
         <option value="$PROJECT_DIR$/core/db_handler.py" />
-        <option value="$PROJECT_DIR$/bin/start.py" />
-        <option value="$PROJECT_DIR$/core/main.py" />
         <option value="$PROJECT_DIR$/core/data_prepare.py" />
         <option value="$PROJECT_DIR$/bin/data_prepare.py" />
         <option value="$PROJECT_DIR$/core/crawl_from_api.py" />
-        <option value="$PROJECT_DIR$/lib/global_variable.py" />
         <option value="$PROJECT_DIR$/core/mods_db.py" />
+        <option value="$PROJECT_DIR$/lib/global_variable.py" />
+        <option value="$PROJECT_DIR$/core/word_frenquency.py" />
+        <option value="$PROJECT_DIR$/core/main.py" />
+        <option value="$PROJECT_DIR$/bin/start.py" />
       </list>
     </option>
   </component>
@@ -265,6 +252,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimilarCourseVisual" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimilarCourseVisual" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -360,7 +361,7 @@
       <recent name="$PROJECT_DIR$/core" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.data_prepare">
+  <component name="RunManager" selected="Python.main">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -668,8 +669,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.data_prepare" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main" />
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.data_prepare" />
         <item index="2" class="java.lang.String" itemvalue="Python.start" />
         <item index="3" class="java.lang.String" itemvalue="Python.db_handler" />
         <item index="4" class="java.lang.String" itemvalue="Python.modles_db" />
@@ -739,7 +740,7 @@
         <state relative-caret-position="450">
           <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
           <folding>
-            <element signature="e#19#52#0" expanded="false" />
+            <element signature="e#19#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -829,7 +830,7 @@
         <state relative-caret-position="450">
           <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
           <folding>
-            <element signature="e#19#52#0" expanded="false" />
+            <element signature="e#19#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -940,7 +941,7 @@
         <state relative-caret-position="375">
           <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
           <folding>
-            <element signature="e#19#52#0" expanded="false" />
+            <element signature="e#19#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1028,16 +1029,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/Untitled.ipynb" />
-    <entry file="file://$PROJECT_DIR$/core/word_frenquency.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-          <folding>
-            <element signature="e#19#52#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/db_handler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1092,16 +1083,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="167" column="22" selection-start-line="167" selection-start-column="22" selection-end-line="167" selection-end-column="22" />
-          <folding>
-            <element signature="e#18#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1112,42 +1093,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/start.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/crawl_from_nusmods.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
           <folding>
             <element signature="e#90#101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/global_variable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/data_prepare.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1164,8 +1115,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/mods_db.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+        <state relative-caret-position="285">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
           <folding>
             <element signature="e#19#52#0" expanded="true" />
             <marker date="1574072071203" expanded="true" signature="875:940" ph="INSERT INTO Modsinfo... " />
@@ -1173,6 +1124,56 @@
             <marker date="1574072071203" expanded="true" signature="2118:2188" ph="select ModsD... Modsinfo" />
             <marker date="1574072071203" expanded="true" signature="2730:2795" ph="select ModsI... Modsinfo" />
             <marker date="1574072071203" expanded="true" signature="3233:3349" ph="create table... Modsinfo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/data_prepare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/global_variable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/word_frenquency.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding>
+            <element signature="e#19#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2202">
+          <caret line="175" column="73" selection-start-line="175" selection-start-column="73" selection-end-line="175" selection-end-column="73" />
+          <folding>
+            <element signature="e#18#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
