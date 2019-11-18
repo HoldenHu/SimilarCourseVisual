@@ -18,6 +18,8 @@ from db_handler import *
 from word_frenquency import draw_word_count
 from mods_db import ModsDB
 import logging
+import numpy as np
+from lib.utils import DataUtils
 
 logging.basicConfig(filename=os.path.join(os.getcwd(),'log.txt'),level=logging.DEBUG)
 
@@ -118,7 +120,7 @@ def mean_class_vec_list(classvec_by_class_list):
     :return: [[0,0,],]
     '''
     classvec_list = []
-    for each_classvec in classvec_by_class_list[0:SHOW_WORD_NUM]:
+    for each_classvec in classvec_by_class_list:
         each_classvec_np = np.array(each_classvec)
         classvec_list.append(np.mean(each_classvec_np, axis=0))
 
@@ -160,8 +162,27 @@ def draw_modules_relation(keywords_list,classcode_list):
     logging.info('Holden: Finish drawing class relationship')
     return
 
+def recommendation(target_code, classcode_list, keywords_list):
+    '''
+    Recommend a similar course for user, given a target module code
+    :param target_code: "CS5242"
+    :param classcode_list: ["CS5242",]
+    :param keywords_list: [["word",],]
+    :return: Draw plot
+    '''
 
-if __name__=="__main__":
+    classvec_by_class_list = word2vec_by_class(keywords_list)
+    classvec_list = mean_class_vec_list(classvec_by_class_list)
+
+    index = classcode_list.index(target_code)
+
+    data_util = DataUtils()
+    recommendation_index = data_util.k_nn(classvec_list[index], classvec_list, index)
+
+    return classcode_list[recommendation_index]
+
+
+if __name__ == "__main__":
 
     mods_db = ModsDB(DB_LOCATION)  # Handler of Database
 
@@ -183,6 +204,16 @@ if __name__=="__main__":
     # draw the similarity graph of sample modules
     if sys.argv[1] == "drawModules":
         draw_modules_relation(sample_keywords_list, sample_classcode_list)
+
+    if sys.argv[1] == "-r":
+        target_module_code = sys.argv[2]
+        if target_module_code in all_classcode_list:
+            print("The most similar course:")
+            print(recommendation(target_module_code, all_classcode_list, all_keywords_list))
+        else:
+            print("There is no such class")
+
+
 
 
 

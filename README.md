@@ -48,7 +48,7 @@ python bin/data_prepare.py
 python bin/start.py drawWords
 ```  
 
-- And you can also run start.py to excute the main function to drawl the similarity of modules by add another agrv.
+- And you can also run start.py to excute the main function to drawl the similarity of sample modules by add another agrv.
 
 ```bash
 python bin/start.py drawWords

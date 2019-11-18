@@ -42,3 +42,24 @@ class DataUtils:
         random_arr = np.arange(len(_in_num))
         np.random.shuffle(random_arr)
         return random_arr[0:num]
+
+    def k_nn(self, target, find_list, place_index):
+        target = np.array(target)
+        distance = []
+        for i in find_list:
+            distance.append(np.sqrt(np.sum(np.square(target - i))))
+
+        sorted_distance = distance[:]
+        sorted_distance.sort()
+        min_2_distance = sorted_distance[0:2]
+
+        if distance.index(min_2_distance[0]) == place_index:
+            return distance.index(min_2_distance[1])
+        else:
+
+            return distance.index(min_2_distance[0])
+
+# a=[[1,2,3],[3,4,5],[4,5,6],[7,8,9]]
+# b=[4,5,6]
+# d = DataUtils()
+# print d.k_nn(b,a,2)

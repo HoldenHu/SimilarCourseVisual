@@ -12,3 +12,5 @@ if sys.argv[1] == "drawWords":
 if sys.argv[1] == "drawModules":
     os.system("python " + MAIN_FUNCTION_PATH + " drawModules")
 
+if sys.argv[1] == "-r":
+    os.system("python " + MAIN_FUNCTION_PATH + " -r " + sys.argv[2])
