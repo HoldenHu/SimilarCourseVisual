@@ -53,6 +53,16 @@ python bin/start.py drawWords
 ```bash
 python bin/start.py drawWords
 ```  
+- And you can also run start.py to excute the main function to recommend the most similar course for you.
+
+```bash
+python bin/start.py -r CS5424
+
+# return:
+# The most similar course:
+# CS4224
+```  
+
 ### Others
 **Cna modify global variables directly in the lib**  
 `STOPWORD_LOCATION` = "../docs/Foxstoplist.txt"   
