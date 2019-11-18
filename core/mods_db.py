@@ -3,11 +3,16 @@
 from lib.global_variable import *
 import sqlite3
 import logging
+import os
 
 
 class ModsDB:
 
     def __init__(self, path):
+        # if not exist db, then create one
+        if not os.path.exists(path):
+            print path
+            self.create_database(path)
         self.conn = sqlite3.connect(path)
         #  This routine creates a cursor that will be used in Python database programming.
         self.cursor = self.conn.cursor()
@@ -85,18 +90,21 @@ class ModsDB:
             # conn.close()
             return True
 
-    # def create_database(self):
-        # '''
-        # Create a database if the database does not exist
-        # :return: Create DB
-        # '''
-        # cursor = conn.cursor()
+    def create_database(self, path):
+        '''
+        Create a database if the database does not exist
+        :return: Create DB
+        '''
+        self.conn = sqlite3.connect(path)
+        cursor = self.conn.cursor()
 
-        # sql = '''create table Modsinfo (
-        #         ModsID int,
-        #         ModsCode text,
-        #         ModsDetails text)'''
+        sql = '''create table Modsinfo (
+                ModsID int,
+                ModsCode text,
+                ModsDetails text)'''
 
-        # cursor.execute(sql)
-        # return
+        cursor.execute(sql)
+        self.conn.close()
+
+        return
 

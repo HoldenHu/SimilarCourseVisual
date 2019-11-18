@@ -57,6 +57,7 @@ def save_code_description(year_1, year_2, semester):
             db.store_to_sqlite(counter, each_code, each_module_detail['ModuleDescription'])
             logging.info('Holden: Save one data of: ' + str(each_code))
         except Exception, e:
+            logging.warn(e)
             print e
         counter = counter + 1
 

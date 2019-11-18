@@ -6,6 +6,7 @@
 SimilarCourseVisual/   
 |-- bin/　 <small>*(Executable files for the project)*</small>  
 |　 |-- \__init__  
+|　 |-- data_prepare.py　 <small>*(Crawl and store data to local file)*</small>     
 |　 |-- start.py　 <small>*(Starting program)*</small>     
 |-- core/　 <small>*(Store all source code for the project (core code))*</small>   
 |　 |-- tests/　 <small>*(Store unit test code)*</small>     
@@ -34,6 +35,13 @@ table **Modsinfo** (
 Mainly covers: Modsid: the Unique identifier in the database; ModsCode: Nus course code; ModsDetails: the descriptions of each module
 
 ## How to use
+### Prepare data
+run data_prepare.py, which will call the function in the `core` to crawl information and store them into db.sqlite3.
+ 
+```bash
+python data_prepare.py
+```  
+
 `python /bin/start.py`  
 Directly draw the word frequency in WordCloud, and save it in /doc
 Meanwhile plot the relationships of `RANDOM_SAMPLE_NUM` modules  
